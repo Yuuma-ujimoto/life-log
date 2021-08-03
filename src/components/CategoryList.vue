@@ -4,7 +4,7 @@
       <Category :category_name="category.category_name" :count_type="category.count_type" :id="category._id"/>
     </div>
     <div class="add-category">
-      +
+      <router-link to="/add-category">Add</router-link>
     </div>
   </div>
 </template>
@@ -30,11 +30,13 @@ export default {
   height: 200px;
   border: darkcyan solid 1px;
   box-sizing: border-box;
+  margin: 20px;
 }
-.category-wrapper{
+
+.category-wrapper {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
   flex-direction: row;
 }
