@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
   .category-box{
-    width: 200px;
+    width: 800px;
     height: 200px;
     border: darkcyan solid 1px;
     box-sizing: border-box;

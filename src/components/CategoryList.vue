@@ -26,18 +26,20 @@ export default {
 
 <style scoped>
 .add-category {
-  width: 200px;
+  width: 800px;
   height: 200px;
   border: darkcyan solid 1px;
   box-sizing: border-box;
   margin: 20px;
+
 }
+
 
 .category-wrapper {
   display: flex;
   width: 100%;
-  justify-content: start;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 </style>

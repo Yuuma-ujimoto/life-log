@@ -59,6 +59,7 @@ export default {
     border: none;
     box-shadow: 0 3px 3px 1px #bdc3c7;
     box-sizing: border-box;
+    font-size: 22px;
   }
   label{
     margin-top: 25px;
@@ -69,8 +70,12 @@ export default {
     margin: 15px 0 0;
   }
   .top-link{
+    margin-top: 15px;
     font-size: 18px;
     color: #000;
     text-decoration: none;
+  }
+  input:focus-visible{
+    outline: none;
   }
 </style>
